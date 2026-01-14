@@ -1,0 +1,5 @@
+{
+  "name": "OrderErrorExtractor",
+  "description": "An intelligent platform to extract failed order details from printed web page PDFs using Gemini AI.",
+  "requestFramePermissions": []
+}
