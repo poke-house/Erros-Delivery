@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { extractOrdersFromPdf } from './services/geminiService';
-import { ExtractedFileResult, ProcessingStatus } from './types';
-import UploadZone from './components/UploadZone';
-import ResultsTable from './components/ResultsTable';
+import { extractOrdersFromPdf } from './services/geminiService.ts';
+import { ExtractedFileResult, ProcessingStatus } from './types.ts';
+import UploadZone from './components/UploadZone.tsx';
+import ResultsTable from './components/ResultsTable.tsx';
 import { Activity, FileCheck, ShieldAlert } from 'lucide-react';
 
 const App: React.FC = () => {

@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { OrderError } from "../types";
-import { fileToBase64 } from "../utils/fileHelpers";
+import { OrderError } from "../types.ts";
+import { fileToBase64 } from "../utils/fileHelpers.ts";
 
 const extractOrdersFromPdf = async (file: File): Promise<OrderError[]> => {
   try {

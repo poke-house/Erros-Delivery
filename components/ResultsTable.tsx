@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { ExtractedFileResult } from '../types';
+import { ExtractedFileResult } from '../types.ts';
 import { AlertCircle, CheckCircle2, FileText, Clock, User, Hash, Store, Calendar, Filter, X, Download, BarChart3 } from 'lucide-react';
 import { jsPDF } from "jspdf";
 import autoTable from "jspdf-autotable";
